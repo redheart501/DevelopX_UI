@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		676C18D42AE27141004EDFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18D32AE27141004EDFBB /* AppDelegate.swift */; };
 		676C18D62AE27141004EDFBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18D52AE27141004EDFBB /* SceneDelegate.swift */; };
-		676C18D82AE27141004EDFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18D72AE27141004EDFBB /* ViewController.swift */; };
-		676C18DB2AE27141004EDFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C18D92AE27141004EDFBB /* Main.storyboard */; };
+		676C18D82AE27141004EDFBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18D72AE27141004EDFBB /* LoginViewController.swift */; };
+		676C18DB2AE27141004EDFBB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C18D92AE27141004EDFBB /* Login.storyboard */; };
 		676C18DD2AE27143004EDFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676C18DC2AE27143004EDFBB /* Assets.xcassets */; };
 		676C18E02AE27143004EDFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C18DE2AE27143004EDFBB /* LaunchScreen.storyboard */; };
 		676C18EB2AE27144004EDFBB /* DevelopX_CodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18EA2AE27144004EDFBB /* DevelopX_CodeTestTests.swift */; };
 		676C18F52AE27144004EDFBB /* DevelopX_CodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18F42AE27144004EDFBB /* DevelopX_CodeTestUITests.swift */; };
 		676C18F72AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18F62AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift */; };
+		676C19042AE2B84D004EDFBB /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19032AE2B84D004EDFBB /* Extenstions.swift */; };
+		676C19062AE2B8B0004EDFBB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19052AE2B8B0004EDFBB /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		676C18D02AE27141004EDFBB /* DevelopX_CodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopX_CodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676C18D32AE27141004EDFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		676C18D52AE27141004EDFBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		676C18D72AE27141004EDFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		676C18DA2AE27141004EDFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676C18D72AE27141004EDFBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		676C18DA2AE27141004EDFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		676C18DC2AE27143004EDFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676C18DF2AE27143004EDFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		676C18E12AE27143004EDFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		676C18F02AE27144004EDFBB /* DevelopX_CodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevelopX_CodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676C18F42AE27144004EDFBB /* DevelopX_CodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopX_CodeTestUITests.swift; sourceTree = "<group>"; };
 		676C18F62AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopX_CodeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		676C19032AE2B84D004EDFBB /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		676C19052AE2B8B0004EDFBB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				676C18D32AE27141004EDFBB /* AppDelegate.swift */,
 				676C18D52AE27141004EDFBB /* SceneDelegate.swift */,
-				676C18D72AE27141004EDFBB /* ViewController.swift */,
-				676C18D92AE27141004EDFBB /* Main.storyboard */,
+				676C18D72AE27141004EDFBB /* LoginViewController.swift */,
+				676C19052AE2B8B0004EDFBB /* GradientButton.swift */,
+				676C19032AE2B84D004EDFBB /* Extenstions.swift */,
+				676C18D92AE27141004EDFBB /* Login.storyboard */,
 				676C18DC2AE27143004EDFBB /* Assets.xcassets */,
 				676C18DE2AE27143004EDFBB /* LaunchScreen.storyboard */,
 				676C18E12AE27143004EDFBB /* Info.plist */,
@@ -233,7 +239,7 @@
 			files = (
 				676C18E02AE27143004EDFBB /* LaunchScreen.storyboard in Resources */,
 				676C18DD2AE27143004EDFBB /* Assets.xcassets in Resources */,
-				676C18DB2AE27141004EDFBB /* Main.storyboard in Resources */,
+				676C18DB2AE27141004EDFBB /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676C18D82AE27141004EDFBB /* ViewController.swift in Sources */,
+				676C19062AE2B8B0004EDFBB /* GradientButton.swift in Sources */,
+				676C18D82AE27141004EDFBB /* LoginViewController.swift in Sources */,
 				676C18D42AE27141004EDFBB /* AppDelegate.swift in Sources */,
+				676C19042AE2B84D004EDFBB /* Extenstions.swift in Sources */,
 				676C18D62AE27141004EDFBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +305,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		676C18D92AE27141004EDFBB /* Main.storyboard */ = {
+		676C18D92AE27141004EDFBB /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				676C18DA2AE27141004EDFBB /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		676C18DE2AE27143004EDFBB /* LaunchScreen.storyboard */ = {
@@ -446,10 +454,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevelopX_CodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Login.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,10 +483,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevelopX_CodeTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Login.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
