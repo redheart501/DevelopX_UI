@@ -41,7 +41,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func clickedSignIn(_ sender: Any) {
-        
+        let story = UIStoryboard(name: "Tabbar", bundle:nil)
+        let vc = story.instantiateViewController(withIdentifier: "TabbarViewController") as! TabbarViewController
+
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(vc)
     }
     
     var type : signInType = .phone
@@ -50,7 +53,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.changeView(.phone)
-   
+        self.view.hideKeyboardWhenTappedAround()
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationCenter(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationCenter(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     override func viewDidLayoutSubviews() {
@@ -79,6 +84,19 @@ class LoginViewController: UIViewController {
        
     }
     
+    @objc func handleNotificationCenter(_ notification: NSNotification) {
+        guard let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+
+        switch notification.name {
+        case UIResponder.keyboardWillShowNotification:
+            view.frame.size.height = UIScreen.main.bounds.height - keyboardSize.height
+        case UIResponder.keyboardWillHideNotification:
+            view.frame.size.height = UIScreen.main.bounds.height
+        default: break
+        }
+
+        view.layoutIfNeeded()
+    }
     
 }
 

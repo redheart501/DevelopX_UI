@@ -18,6 +18,14 @@
 		676C18F72AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C18F62AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift */; };
 		676C19042AE2B84D004EDFBB /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19032AE2B84D004EDFBB /* Extenstions.swift */; };
 		676C19062AE2B8B0004EDFBB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19052AE2B8B0004EDFBB /* GradientButton.swift */; };
+		676C19082AE2CF31004EDFBB /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C19072AE2CF31004EDFBB /* Tabbar.storyboard */; };
+		676C190A2AE2D308004EDFBB /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19092AE2D308004EDFBB /* TabbarViewController.swift */; };
+		676C190C2AE2DE55004EDFBB /* SingleImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C190B2AE2DE55004EDFBB /* SingleImageItem.swift */; };
+		676C190E2AE2DEA5004EDFBB /* GallaryImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C190D2AE2DEA5004EDFBB /* GallaryImageViewController.swift */; };
+		676C19102AE2DECE004EDFBB /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C190F2AE2DECE004EDFBB /* PinterestLayout.swift */; };
+		676C19132AE2DF21004EDFBB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 676C19122AE2DF21004EDFBB /* Kingfisher */; };
+		676C19152AE2DF3B004EDFBB /* PhotoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19142AE2DF3B004EDFBB /* PhotoItemCell.swift */; };
+		676C19172AE2DF91004EDFBB /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C19162AE2DF91004EDFBB /* ImagePreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,13 @@
 		676C18F62AE27144004EDFBB /* DevelopX_CodeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopX_CodeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		676C19032AE2B84D004EDFBB /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		676C19052AE2B8B0004EDFBB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		676C19072AE2CF31004EDFBB /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		676C19092AE2D308004EDFBB /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		676C190B2AE2DE55004EDFBB /* SingleImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageItem.swift; sourceTree = "<group>"; };
+		676C190D2AE2DEA5004EDFBB /* GallaryImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryImageViewController.swift; sourceTree = "<group>"; };
+		676C190F2AE2DECE004EDFBB /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		676C19142AE2DF3B004EDFBB /* PhotoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemCell.swift; sourceTree = "<group>"; };
+		676C19162AE2DF91004EDFBB /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676C19132AE2DF21004EDFBB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67421BA52AE2E7620090294D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				676C18D72AE27141004EDFBB /* LoginViewController.swift */,
+				676C19092AE2D308004EDFBB /* TabbarViewController.swift */,
+				676C190D2AE2DEA5004EDFBB /* GallaryImageViewController.swift */,
+				676C19162AE2DF91004EDFBB /* ImagePreviewViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		67421BA62AE2E77B0090294D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				676C18D92AE27141004EDFBB /* Login.storyboard */,
+				676C19072AE2CF31004EDFBB /* Tabbar.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		67421BA72AE2E79C0090294D /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				676C19032AE2B84D004EDFBB /* Extenstions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		67421BA82AE2E82D0090294D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				676C190B2AE2DE55004EDFBB /* SingleImageItem.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		67421BA92AE2E8480090294D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				676C19142AE2DF3B004EDFBB /* PhotoItemCell.swift */,
+				676C19052AE2B8B0004EDFBB /* GradientButton.swift */,
+				676C190F2AE2DECE004EDFBB /* PinterestLayout.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		676C18C72AE27141004EDFBB = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +167,11 @@
 			children = (
 				676C18D32AE27141004EDFBB /* AppDelegate.swift */,
 				676C18D52AE27141004EDFBB /* SceneDelegate.swift */,
-				676C18D72AE27141004EDFBB /* LoginViewController.swift */,
-				676C19052AE2B8B0004EDFBB /* GradientButton.swift */,
-				676C19032AE2B84D004EDFBB /* Extenstions.swift */,
-				676C18D92AE27141004EDFBB /* Login.storyboard */,
+				67421BA52AE2E7620090294D /* VC */,
+				67421BA62AE2E77B0090294D /* Storyboard */,
+				67421BA72AE2E79C0090294D /* Extenstions */,
+				67421BA82AE2E82D0090294D /* Data */,
+				67421BA92AE2E8480090294D /* Custom */,
 				676C18DC2AE27143004EDFBB /* Assets.xcassets */,
 				676C18DE2AE27143004EDFBB /* LaunchScreen.storyboard */,
 				676C18E12AE27143004EDFBB /* Info.plist */,
@@ -149,6 +212,9 @@
 			dependencies = (
 			);
 			name = DevelopX_CodeTest;
+			packageProductDependencies = (
+				676C19122AE2DF21004EDFBB /* Kingfisher */,
+			);
 			productName = DevelopX_CodeTest;
 			productReference = 676C18D02AE27141004EDFBB /* DevelopX_CodeTest.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +287,9 @@
 				Base,
 			);
 			mainGroup = 676C18C72AE27141004EDFBB;
+			packageReferences = (
+				676C19112AE2DF21004EDFBB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 676C18D12AE27141004EDFBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676C19082AE2CF31004EDFBB /* Tabbar.storyboard in Resources */,
 				676C18E02AE27143004EDFBB /* LaunchScreen.storyboard in Resources */,
 				676C18DD2AE27143004EDFBB /* Assets.xcassets in Resources */,
 				676C18DB2AE27141004EDFBB /* Login.storyboard in Resources */,
@@ -266,8 +336,14 @@
 			files = (
 				676C19062AE2B8B0004EDFBB /* GradientButton.swift in Sources */,
 				676C18D82AE27141004EDFBB /* LoginViewController.swift in Sources */,
+				676C190E2AE2DEA5004EDFBB /* GallaryImageViewController.swift in Sources */,
+				676C190C2AE2DE55004EDFBB /* SingleImageItem.swift in Sources */,
+				676C190A2AE2D308004EDFBB /* TabbarViewController.swift in Sources */,
 				676C18D42AE27141004EDFBB /* AppDelegate.swift in Sources */,
+				676C19152AE2DF3B004EDFBB /* PhotoItemCell.swift in Sources */,
+				676C19102AE2DECE004EDFBB /* PinterestLayout.swift in Sources */,
 				676C19042AE2B84D004EDFBB /* Extenstions.swift in Sources */,
+				676C19172AE2DF91004EDFBB /* ImagePreviewViewController.swift in Sources */,
 				676C18D62AE27141004EDFBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +693,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		676C19112AE2DF21004EDFBB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		676C19122AE2DF21004EDFBB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 676C19112AE2DF21004EDFBB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 676C18C82AE27141004EDFBB /* Project object */;
 }
